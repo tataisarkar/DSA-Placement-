@@ -2,7 +2,9 @@
 using namespace std;
 
 int &fun(){
-    static int x = 10;
+    static int x = 10; // code works fine!
+    // int x = 10; // warning: reference to local variable 'x' returned
+
     return x;
 }
 
