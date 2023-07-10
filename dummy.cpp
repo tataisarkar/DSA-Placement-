@@ -2,13 +2,13 @@
 using namespace std;
 
 int main(){
-    int x = 10, &y=x;
+    int arr[10] = {-1};
 
-    cout<<x;
+    int i=0;
 
-    // &y = x; // throws error!
-
-    cout<<"\ny: "<<y;
+    for(;i<10;i++){
+        cout<<arr[i]<<endl;
+    }
 
     return 0;
 }
